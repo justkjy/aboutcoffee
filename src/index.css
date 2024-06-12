@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  display: flex;
+  background-color: #f2f2f2;
+  min-height: 60px;
+  color: red;
+
+  font-size: 23px;
+  font-weight: 600;
+  font-style: oblique;
+
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.profile__box {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  color: #3f3f3f;
+  font-style: inherit;
+}
+
+.flex__box-lg {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.profile__image {
+  width: 70px;
+  height: 70px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+}
+
+/* post Profile */
+.profile__name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.profile__email {
+  font-size: 14px;
+  color: #3f3f3f;
+}
+
+/* CoffeeList */
+.post__list {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  align-items: center;
+
+}
+
+.profile__box,
+.post__unit {
+  margin-bottom: 50px;
+  max-width: 720px;
+  line-height: 2;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.profile__box {
+  justify-content: left;
+  margin-bottom: 50px;
+}
+
+.post__unit a {
+  line-height: 2;
+  margin: 30px 0px;
+}
+
+/*post__box*/
+.post__box {
+  margin-bottom: 15px;
+
+}
+
+.flex__box-ps {
+  display: flex;
+  align-items: top;
+}
+
+.post__image {
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  
+  border-radius: 10%;
+  background-color: pink;
+}
+
+.post__description {
+  margin-left: 20px;
+}
+
+.post__coffeeName {
+  font-size: 18px;
+  color: #3f3f3f;
+  font-weight: 600;
+}
+/* post__util-box */
+.post__util-box {
+  display: flex;
+  justify-content: right;
+  gap: 8px;
+  color: gray;
+  margin-bottom: 10px;
+}
